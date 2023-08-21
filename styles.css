@@ -1,0 +1,58 @@
+/* styles.css */
+#container {
+    background-color: lightgray;
+    padding: 20px;
+}
+
+body {
+  font-size: 16px;
+}
+
+p {
+  font-weight: 400;
+  line-height: 1.4em;
+}
+
+h1 {
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h2 {
+  font-weight: 700;
+  text-align: left;
+  padding-top: 15px;
+}
+
+p.centered-address {
+  text-align: center;
+}
+
+a {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #4F3674;
+    text-decoration: none; /* Remove underline */
+}
+
+/* Hover state for the website link */
+a:hover {
+    text-decoration: underline;
+    background-color: #D6A800;
+}
+
+/* Visited state for the website link */
+a:visited {
+    /* Choose your styling for the visited link */
+}
+
+/* For the CSS sentence class */
+.sentence {
+    font-style: italic;
+}
+
+/* For the CSS intro class */
+.intro {
+    text-indent: 2em;
+}
