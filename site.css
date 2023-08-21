@@ -1,1 +1,38 @@
+/* site.css */
+#container {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
 
+/* Styling for headings */
+
+h1, h2, h3, h4 {
+
+    font-size: 24px;
+    color: #800080;
+    padding-top: 10px;
+
+}
+/* Background */
+
+.box {
+    background-color: #ADD8E6; 
+    border: 1px solid #808080;
+    padding: 10px; 
+}
+
+/* Styling for anchor (link) tags */
+
+a {
+    color: #0000FF; /* Default link color */
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+    color: #FFC0CB; /* Link color on hover */
+}
+
+a:visited {
+    color: #FFA500; /* Visited link color */
+}
