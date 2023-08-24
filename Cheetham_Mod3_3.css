@@ -1,0 +1,114 @@
+/* site.css */
+#container {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+/* Styling for h1 */
+
+.centered-h1 {
+
+    font-size: 24px;
+    color: #800080;
+    text-align: center;
+}
+
+/* Styling for h3 */
+
+h3 {
+    font-weight: 500;
+    font-size: 24px;
+    color: #800080;
+    padding-top: 10px;
+}
+
+/* Styling for other headings */
+
+h2, h4, h5, h6 {
+
+    font-size: 24px;
+    color: #800080;
+    padding-top: 10px;
+
+}
+
+/* Background */
+
+.box {
+    background-color: #ADD8E6; 
+    border: 1px solid #808080;
+    padding: 10px; 
+}
+
+/* Styling for anchor (link) tags */
+
+a {
+    color: #0000FF; /* Default link color */
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+    color: #FFC0CB; /* Link color on hover */
+}
+
+a:visited {
+    color: #FFA500; /* Visited link color */
+}
+
+
+.side-by-side {
+    display: inline-block; 
+    width: 45%; 
+    margin-right: 60%; 
+    vertical-align: top; 
+    box-sizing: border-box; 
+    font-weight: 300;
+}
+
+
+.side-by-side ul {
+    border: 1px dashed red;
+    border-radius: 15px;
+    padding: 10px;
+    list-style: inside upper-roman;
+}
+
+.side-by-side ul li {
+    margin: 5px 0; 
+}
+
+
+.red-box-list {
+    border: 1px solid red;
+    border-radius: 15px;
+    padding: 10px;
+    list-style: inside decimal;
+}
+
+
+.red-box-list li {
+    margin: 5px 0; 
+}
+
+
+ul.red-box-list {
+    border: 1px dashed red;
+    border-radius: 15px;
+    padding: 10px;
+    list-style: inside upper-roman;
+}
+
+
+ul.red-box-list li {
+    margin: 5px 0; 
+}
+
+
+.list-title {
+    border: 2px dashed red;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+}
